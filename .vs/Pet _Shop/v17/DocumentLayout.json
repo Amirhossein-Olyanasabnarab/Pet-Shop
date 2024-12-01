@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|c:\\users\\amirh\\source\\repos\\pet _shop\\src\\pet_shop.presentation\\endpoint.site\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|solutionrelative:src\\pet_shop.presentation\\endpoint.site\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-01T15:04:05.694Z",
+              "EditorCaption": ""
             }
           ]
         }
