@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Pet_Shop.Domain.Entities.Users
 {
-    internal class UserInRole
+    public class UserInRole
     {
+        public long Id { get; set; }
+        public virtual User User { get; set; }
+        public long UserId { get; set; }
+        public virtual Role Role { get; set; }
+        public long RoleId { get; set; }
     }
 }
