@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|c:\\users\\amirh\\source\\repos\\pet _shop\\src\\pet_shop.presentation\\endpoint.site\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|solutionrelative:src\\pet_shop.presentation\\endpoint.site\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|c:\\users\\amirh\\source\\repos\\pet _shop\\src\\pet_shop.presentation\\endpoint.site\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|solutionrelative:src\\pet_shop.presentation\\endpoint.site\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|c:\\users\\amirh\\source\\repos\\pet _shop\\src\\pet_shop.presentation\\endpoint.site\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|solutionrelative:src\\pet_shop.presentation\\endpoint.site\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|c:\\users\\amirh\\source\\repos\\pet _shop\\src\\pet_shop.presentation\\endpoint.site\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|solutionrelative:src\\pet_shop.presentation\\endpoint.site\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +30,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:12:23.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T15:10:56.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\ScaffoldingReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-01T15:04:05.694Z",
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml*",
+              "RelativeToolTip": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml*",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAwwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T15:08:01.292Z",
               "EditorCaption": ""
             }
           ]
