@@ -10,7 +10,7 @@ namespace Pet_Shop.Persistence.Contexts
 {
     public class DataBaseContext : DbContext
     {
-        public DataBaseContext()
+        public DataBaseContext(DbContextOptions options) : base(options)
         {
             
         }
