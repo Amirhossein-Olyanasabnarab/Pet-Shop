@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|c:\\users\\amirh\\source\\repos\\pet _shop\\src\\pet_shop.presentation\\endpoint.site\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|solutionrelative:src\\pet_shop.presentation\\endpoint.site\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D086C8-345F-4127-96B6-1A7A43F23016}|Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Pet_Shop.Domain.csproj|c:\\users\\amirh\\source\\repos\\pet _shop\\src\\pet_shop.core\\pet_shop.domain\\entities\\users\\userinrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D086C8-345F-4127-96B6-1A7A43F23016}|Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Pet_Shop.Domain.csproj|solutionrelative:src\\pet_shop.core\\pet_shop.domain\\entities\\users\\userinrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D086C8-345F-4127-96B6-1A7A43F23016}|Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Pet_Shop.Domain.csproj|c:\\users\\amirh\\source\\repos\\pet _shop\\src\\pet_shop.core\\pet_shop.domain\\entities\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D086C8-345F-4127-96B6-1A7A43F23016}|Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Pet_Shop.Domain.csproj|solutionrelative:src\\pet_shop.core\\pet_shop.domain\\entities\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D086C8-345F-4127-96B6-1A7A43F23016}|Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Pet_Shop.Domain.csproj|c:\\users\\amirh\\source\\repos\\pet _shop\\src\\pet_shop.core\\pet_shop.domain\\entities\\users\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D086C8-345F-4127-96B6-1A7A43F23016}|Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Pet_Shop.Domain.csproj|solutionrelative:src\\pet_shop.core\\pet_shop.domain\\entities\\users\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|c:\\users\\amirh\\source\\repos\\pet _shop\\src\\pet_shop.presentation\\endpoint.site\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD9BC47-4272-4E21-91AD-5ECF5541CA97}|Src\\Pet_Shop.Presentation\\EndPoint.Site\\EndPoint.Site.csproj|solutionrelative:src\\pet_shop.presentation\\endpoint.site\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\appsettings.json",
+              "RelativeDocumentMoniker": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\appsettings.json",
+              "ToolTip": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\appsettings.json",
+              "RelativeToolTip": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-04T19:13:04.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserInRole.cs",
+              "DocumentMoniker": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Entities\\Users\\UserInRole.cs",
+              "RelativeDocumentMoniker": "Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Entities\\Users\\UserInRole.cs",
+              "ToolTip": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Entities\\Users\\UserInRole.cs",
+              "RelativeToolTip": "Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Entities\\Users\\UserInRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:13:00.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Entities\\Users\\User.cs",
+              "RelativeDocumentMoniker": "Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Entities\\Users\\User.cs",
+              "ToolTip": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Entities\\Users\\User.cs",
+              "RelativeToolTip": "Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Entities\\Users\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:12:56.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Entities\\Users\\Role.cs",
+              "RelativeDocumentMoniker": "Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Entities\\Users\\Role.cs",
+              "ToolTip": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Entities\\Users\\Role.cs",
+              "RelativeToolTip": "Src\\Pet_Shop.Core\\Pet_Shop.Domain\\Entities\\Users\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:12:54.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\Startup.cs",
+              "RelativeDocumentMoniker": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\Startup.cs",
+              "ToolTip": "C:\\Users\\amirh\\source\\repos\\Pet _Shop\\Src\\Pet_Shop.Presentation\\EndPoint.Site\\Startup.cs",
+              "RelativeToolTip": "Src\\Pet_Shop.Presentation\\EndPoint.Site\\Startup.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:11:35.124Z",
+              "EditorCaption": ""
             }
           ]
         }

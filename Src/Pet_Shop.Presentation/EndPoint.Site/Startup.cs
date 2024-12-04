@@ -1,8 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Pet_Shop.Application.Interfaces.Contexts;
+using Pet_Shop.Persistence.Contexts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +25,10 @@ namespace EndPoint.Site
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IDatabaseContext, DataBaseContext>();
+            services.AddEntityFrameworkSqlServer().AddDbContext<DataBaseContext>
+                (option => option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")
+                ));
             services.AddControllersWithViews();
         }
 
