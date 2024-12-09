@@ -12,4 +12,8 @@
     <ProjectReference Include="..\Pet_Shop.Domain\Pet_Shop.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\Users\Commands\" />
+  </ItemGroup>
+
 </Project>

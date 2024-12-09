@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Pet_Shop.Application.Interfaces.Contexts;
+using Pet_Shop.Application.Services.Users.Queries.GetUsers;
 using Pet_Shop.Persistence.Contexts;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,8 @@ namespace EndPoint.Site
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IDatabaseContext, DataBaseContext>();
+            services.AddScoped<IGetUsersService, GetUserService>();
+
             services.AddEntityFrameworkSqlServer().AddDbContext<DataBaseContext>
                 (option => option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")
                 ));
