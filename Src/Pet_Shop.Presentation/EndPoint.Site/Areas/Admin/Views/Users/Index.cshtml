@@ -1,7 +1,32 @@
-﻿@{
+﻿@using Pet_Shop.Application.Services.Users.Queries.GetUsers
+@model ResultGetUserDto;
+@{
     Layout = "_AdminLayout";
 }
 
-<h1>
-    Users ......
-</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Full Name</th>
+            <th scope="col">Email</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.Users)
+        {
+            <tr>
+                <th scope="row"></th>
+                <td>@item.FullName</td>
+                <td>@item.Email</td>
+                <td>
+                    <button class="btn btn-primary">Edit</button>
+                    <button class="btn btn-danger">Delete</button>
+                </td>
+
+            </tr>
+        }
+       
+    </tbody>
+</table>

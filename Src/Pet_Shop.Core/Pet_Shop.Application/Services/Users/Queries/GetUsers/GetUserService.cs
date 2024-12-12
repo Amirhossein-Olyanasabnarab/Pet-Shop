@@ -16,7 +16,7 @@ namespace Pet_Shop.Application.Services.Users.Queries.GetUsers
             _context = context;
         }
 
-        public List<GetUsersDto> Execute(RequestGetUserDto request)
+        public ResultGetUserDto Execute(RequestGetUserDto request)
         {
             var users = _context.Users.AsQueryable();
             if (!string.IsNullOrEmpty(request.SearchKey))
@@ -24,12 +24,18 @@ namespace Pet_Shop.Application.Services.Users.Queries.GetUsers
                 users = users.Where(p => p.FullName.Contains(request.SearchKey) && p.Email.Contains(request.SearchKey));
             }
             int rowsCount = 0;
-            return users.ToPaged(request.Page, 20, out rowsCount).Select(p => new GetUsersDto
+            var usersList = users.ToPaged(request.Page, 20, out rowsCount).Select(p => new GetUsersDto
             {
                 Id = p.Id,
                 FullName = p.FullName,
                 Email = p.Email,
             }).ToList();
+
+            return new ResultGetUserDto
+            {
+                Rows = rowsCount,
+                Users = usersList
+            };
         }
     }
 }

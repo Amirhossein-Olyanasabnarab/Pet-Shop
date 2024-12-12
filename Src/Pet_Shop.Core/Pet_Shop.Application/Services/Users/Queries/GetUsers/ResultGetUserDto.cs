@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pet_Shop.Application.Services.Users.Queries.GetUsers
 {
-    public class ResultGetDto
+    public class ResultGetUserDto
     {
         public List<GetUsersDto> Users { get; set; }
         public int Rows { get; set; }

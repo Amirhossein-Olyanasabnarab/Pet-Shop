@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Pet_Shop.Common\Pet_Shop.Common\Pet_Shop.Common.csproj" />
     <ProjectReference Include="..\Pet_Shop.Domain\Pet_Shop.Domain.csproj" />
   </ItemGroup>
 
